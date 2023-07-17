@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+/* 上中下 */
+
+.body-box {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    min-height: 150vh;
+
+}
+
+header {
+    height: 143px;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container {
+    min-height: 520px;
+    width: 960px;
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+}
+
+footer {
+    flex: 1;
+    background-image: url("../imgs/bg1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 头部引导区 */
+
+#header_form {
+    height: 100px;
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header_form img {
+    height: 70px;
+    width: auto;
+}
+
+#header_form .el-form-item{
+    margin: 0;
+}
+
+#header_form div .el-row{
+    margin-top: 10px;
+}
+
+#header_form div .el-row .el-button{
+    margin-left: 5px;
+}
+
+#header_form div .el-row .el-link{
+    margin-left: 5px;
+    color: darkcyan;
+}
+
+/* 头部导航区 */
+
+.nv {
+    width: 960px;
+    height: 43px;
+    margin: 0 auto;
+    background-image: url("../imgs/nv.png");
+    border-radius: 5px;
+}
+
+.nv ul {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0 0;
+}
+
+.nv ul li:first-child a {
+    color: white;
+}
+
+.nv input {
+    float: right;
+    margin-right: 10px;
+    height: 25px;
+    border-radius: 8px;
+    margin: 0;
+    margin-top: 8px;
+    margin-right: 10px;
+    border: 0;
+    padding-left: 10px;
+}
+
+.nv input:focus{
+    outline: 0;
+}
+
+.nv button {
+    float: right;
+    background: url("../imgs/search.png") no-repeat 0 0;
+    border: 0;
+    height: 30px;
+    width: 30px;
+    margin: 8px 15px 0 0;
+}
+
+/* 内容区 */
+.stat{
+    border-bottom: 1px solid black;
+}
+
+.stat h2{
+    margin-left: 5px;
+}
+
+.posts_list_container{
+    position: absolute;
+    top: 37px;
+    bottom: 0;
+    width: 100%;
+}
+
+.posts_list_container .el-pagination{
+    position: absolute;
+    bottom: 0;
+}
+
+/* 注脚区 */
+.foot_stat{
+
+}
